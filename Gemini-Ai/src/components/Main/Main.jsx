@@ -43,8 +43,7 @@ const Main = () => {
             </div>
             <div className="card">
               <p>
-                Teach me react tutorial in depth with full explanation and code
-                for interviews
+                 Give me code for Gemini API Request and response
               </p>
               <img src={assets.code_icon} alt="compass icon" />
             </div>
