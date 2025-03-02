@@ -43,7 +43,7 @@ const Main = () => {
             </div>
             <div className="card">
               <p>
-                 Give me code for Gemini API Request and response
+                 Give me code for Gemini API Request and response and also add css
               </p>
               <img src={assets.code_icon} alt="compass icon" />
             </div>
