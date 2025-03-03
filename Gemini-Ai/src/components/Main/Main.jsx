@@ -32,14 +32,14 @@ const Main = () => {
                 Teach me react tutorial in depth with full explanation and code
                 for interviews
               </p>
-              <img src={assets.bulb_icon} alt="compass icon" />
+              <img src={assets.bulb_icon} alt="buld icon" />
             </div>
             <div className="card">
               <p>
                 Teach me react tutorial in depth with full explanation and code
                 for interviews
               </p>
-              <img src={assets.message_icon} alt="compass icon" />
+              <img src={assets.message_icon} alt="message icon" />
             </div>
             <div className="card">
               <p>
