@@ -36,6 +36,12 @@ const Main = () => {
             </div>
             <div className="card">
               <p>
+               give me code for AI image generation 
+              </p>
+              <img src={assets.bulb_icon} alt="buld icon" />
+            </div>
+            <div className="card">
+              <p>
                 Teach me react tutorial in depth with full explanation and code
                 for interviews
               </p>
