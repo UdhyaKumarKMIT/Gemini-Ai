@@ -7,6 +7,7 @@ const ContextProvider = ({ children }) => {
   const [prevPrompts, setPrevPrompts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [resultData, setResultData] = useState("");
+  const [hideGreeting,setHideGreeting] = useState(false);
 
   const run = async (prompt) => {
     setLoading(true);
@@ -37,9 +38,12 @@ const ContextProvider = ({ children }) => {
   };
 
   const onSent = async (prompt) => {
+    setHideGreeting(true);
     if (!prompt.trim()) return;
     await run(prompt);
   };
+
+  
 
   return (
     <Context.Provider
