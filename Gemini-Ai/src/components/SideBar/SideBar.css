@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-.SideBar .new-chat{
+.SideBar .new-chat{margin-bottom: 12px;
     margin-top: 10px;
     display: inline-flex;
     align-items: center;
