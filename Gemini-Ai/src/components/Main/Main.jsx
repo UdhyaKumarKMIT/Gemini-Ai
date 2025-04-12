@@ -15,7 +15,7 @@ const Main = () => {
         <div className="main-container">
           {
             !hideGreeting && (
-              <div className="greet">
+              <div className="greeting">
               <p>
                 <span>Hello, Dev.</span>
               </p>
