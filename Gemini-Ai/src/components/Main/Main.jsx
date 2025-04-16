@@ -19,8 +19,9 @@ const Main = () => {
               <p>
                 <span>Hello, Dev.</span>
               </p>
-              <p>How can I help you today Gemini?</p>
+              <p>How can I help you today Gemini AI? </p>
             </div>
+            
             )
           }
 
@@ -28,6 +29,13 @@ const Main = () => {
             !hideGreeting && (
  
               <div className="cards">
+              <div className="card">
+                <p>
+                  Teach me react tutorial in depth with full explanation and code
+                  for interviews
+                </p>
+                <img src={assets.compass_icon} alt="compass icon" />
+              </div>
               <div className="card">
                 <p>
                   Teach me react tutorial in depth with full explanation and code
