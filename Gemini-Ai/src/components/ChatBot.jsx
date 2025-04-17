@@ -45,6 +45,13 @@ function ChatBot() {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
+      <input
+        type="text"
+        className="border p-2 w-full rounded-md"
+        placeholder="Ask something..."
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+      />
       <button
         className="mt-2 px-4 py-2 bg-blue-500 text-white rounded-md"
         onClick={() => run(input)}
