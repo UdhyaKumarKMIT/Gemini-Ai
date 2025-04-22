@@ -30,7 +30,7 @@ function ChatBot() {
       setResponse(result.response.text);
     } catch (error) {
       console.error("Error:", error);
-      setResponse("Failed to fetch response.");
+      setResponse("Failed to");
     }
     setLoading(false);
   }
