@@ -37,7 +37,7 @@ function ChatBot() {
 
   return (
     <div className="p-4 max-w-md mx-auto bg-white shadow-lg rounded-lg">
-      <h2 className="text-xl font-bold mb-2">Chat with AI</h2>
+      <h2 className="text-xl font-bold mb-10">Chat with AI</h2>
       <input
         type="text"
         className="border p-2 w-full rounded-md"
