@@ -27,7 +27,7 @@ function ChatBot() {
       });
 
       const result = await chatSession.sendMessage(inputText);
-      setResponse(result.response.text);
+      setResponse();
     } catch (error) {
       console.error("Error:", error);
       setResponse("Failed to");
